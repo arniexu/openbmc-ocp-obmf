@@ -1,4 +1,4 @@
-MACHINE ??= "raspberrypi"
+MACHINE ??= "raspberrypi3-64"
 DISTRO ?= "openbmc-phosphor"
 PACKAGE_CLASSES ?= "package_ipk"
 SANITY_TESTED_DISTROS:append ?= " *"
