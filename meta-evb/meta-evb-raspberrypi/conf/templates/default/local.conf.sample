@@ -23,3 +23,7 @@ LICENSE_FLAGS_ACCEPTED += "synaptics-killswitch"
 
 require conf/machine/include/obmc-bsp-common.inc
 require conf/machine/include/obmc-evb-common.inc
+
+# Raspberry Pi 3B SD boot output
+OBMC_IMAGE_INCLUDE = "mmc"
+IMAGE_FSTYPES = "wic.xz"
